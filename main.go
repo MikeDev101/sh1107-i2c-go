@@ -85,5 +85,5 @@ func main() {
 	time.Sleep(time.Second)
 
 	log.Print("Bad apple demo!")
-	display.PlayAnimation("badapple", 6574, 30)
+	display.PlayAnimation("frame128", 6574, 30)
 }
