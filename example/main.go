@@ -8,7 +8,7 @@ import (
 	"math"
 	"time"
 
-	SH1107 "github.com/mikedev101/sh1107-i2c-go/sh1107"
+	SH1107 "github.com/mikedev101/sh1107-i2c-go"
 )
 
 func drawSmiley(img *image.Gray) {
