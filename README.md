@@ -13,4 +13,4 @@ Thanks to the demo code provided by seeed studio and waveshare (plus a little Ch
 run a SH1107 at a fast enough speed.
 
 # Ok, how do I use it?
-Add the sh1107.go as a new library to your project, then import it as necessary. See some demo code here:
+Add the sh1107.go as a new library to your project, then import it as necessary.
