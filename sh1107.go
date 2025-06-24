@@ -5,6 +5,7 @@ import (
 	"image"
 	"image/color"
 	"log"
+	"math"
 	"os"
 	"time"
 
@@ -151,8 +152,9 @@ func (d *SH1107) Off() {
 
 // Set brightness from 0.0 to 1.0
 func (d *SH1107) SetBrightness(level float64) {
-	scaled := byte(uint8(float64(0x7F) * level))
-	d.writeCommand(0x81, scaled, level) // 0x7F is the max brightness for SH1107
+	clamped := math.Max(0.0, math.Min(1.0, level))
+	b := byte(clamped * 0x7F)
+	d.writeCommand(0x81, b) // 0x7F is the max brightness for SH1107
 }
 
 // Clears the display with either all black or all white
