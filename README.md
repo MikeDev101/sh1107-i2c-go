@@ -13,4 +13,4 @@ Thanks to the demo code provided by seeed studio and waveshare (plus a little Ch
 run a SH1107 at a fast enough speed.
 
 # Ok, how do I use it?
-Add the sh1107.go as a new library to your project, then import it as necessary.
+Run `go get github.com/mikedev101/sh1107-i2c-go` and view [`example/main.go`](https://github.com/MikeDev101/sh1107-i2c-go/blob/main/example/main.go) for usage.
