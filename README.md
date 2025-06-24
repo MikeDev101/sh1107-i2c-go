@@ -9,7 +9,7 @@ Because I had some "fun" with one of these. A 128x128 monochrome OLED display th
 There weren't any native, easy-to-use Go libraries out there for this particular display. And despite my efforts, not even Python wanted to play with it.
 
 # How?
-Thanks to the demo code provided by seeed studio and waveshare (plus a little ChatGPT and Copilot magic) I ported the necessary driver functions needed to
+Thanks to the demo code provided by [seeed studio and waveshare](https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0/) (plus a little ChatGPT and Copilot magic) I ported the necessary driver functions needed to
 run a SH1107 at a fast enough speed.
 
 # Ok, how do I use it?
